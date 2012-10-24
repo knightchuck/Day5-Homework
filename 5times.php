@@ -1,5 +1,5 @@
 <?php 
-
+/* Chuck Berger Day 5 Homework Exercise 3 */
 /* The heading */
 print "<font color='red'><b>BELOW IS THE 5X TABLE</font></b><br>";
 

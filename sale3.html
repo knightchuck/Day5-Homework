@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+/* Layout */
+form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 15px}
+label {
+	width:10em;
+	padding-right: 1em;
+	float: left;}
+#data input {
+	float: left;
+	width: 15em;
+	margin-bottom: .5em;}
+#butons input {
+	float: left;
+	margin-bottom: .5em;}
+br {
+	clear: left;}
+#mainContent {
+	text-align: center;}
+	/* Presentation */
+form {
+	border: 2px solid navy;}
+#mainContent {
+	color: navy; }
+	
+</style>	
+	
+<link rel="widgets" href="widgets.ico"/>
+<title>Widget Sales, Inc.</title>
+<link rel="shortcut icon" href="widgets.ico"/>
+<link rel="stylesheet" href="CSS/main.css"/>
+<link rel="stylesheet" href="CSS/nav.css"/>
+</head>
+<body>
+<header>
+<img src="widgets.jpg"
+	alt="Widgets" width="100" height="100">
+<hgroup>
+	<h1>Widget Store, Inc.</h1>
+	<h2>WIDGEE  WIDGEE!!</h2>
+	
+</hgroup>
+
+</header>
+<section id="container">
+
+<header id="top">
+		<h1> Sale Today!</h1>
+		</header>
+<h2 id="mainContent">Sale Calculator</h2>
+
+	<form action="sale3.php" method="post" >
+	 <!--  Data Entry -->
+	 <div id="data">
+	 	<label>Product Description:</label>
+	 	<input type="text" name="product_description"/><br />
+	 		 	
+	 	<label> List Price:</label>
+	 	<input type="text" name="list_price" /><br />
+	 	
+	 	<label>Discount Percent:</label>
+	 	<input type="text" name="discount_percent" />%<br />
+	 </div>
+	 <!--  Submit -->
+	 <div id="buttons">
+	 	<label>&nbsp;</label>
+	 	<input type="submit" value="Calculate Discount" /><br />
+	 	</div>
+	</form>
+		 
+</section>
+<footer>
+	<p>&copy; 2012 Widget Store, Inc.</p>
+</footer>
+</body>
+</html>
